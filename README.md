@@ -10,7 +10,7 @@ It includes RFM69 radio module and ATSHA204A crypto signing chip.
 # Configuration
 There are two jumpers to configure CS and IRQ RFM69 pins.
 JP1 is used to choose between pins 6 or 10 for the RFM69 CS line. This is necessary to use an ethernet module in the same SPI bus.
-JP2 is used to choose between pins 2 or 3 for the RFM69 IRQ line. Default for ATmega328P seams to be pin 2 but for ATmega32u4 is pis 3.
+JP2 is used to choose between pins 2 or 3 for the RFM69 IRQ line. Default for ATmega328P seems to be pin 2 but for ATmega32u4 is pin 3.
  - Serial gateway using an Arduino UNO JP1 and JP2 should be both 2-3.
  - Ethernet gateway using Arduino UNO with Ethernet shield stacked JP1 should be 1-2 and JP2 2-3.
  - Ethernet gateway with DFRobot DFR0342 JP1 and JP2 should be both 1-2.
