@@ -1,7 +1,7 @@
 # MyGateway
 RFM69 + ATSHA204A Shield for Arduino.
 
-![MyGateway shield on DFRobot board](https://github.com/ger-ator/MyGateway/raw/master/pics/dfrobot_gateway.jpg)
+![MyGateway shield](https://github.com/ger-ator/MyGateway/raw/master/pics/mygateway.jpg)
 
 # Description
 This is another shield to build a MySensors gateway with Arduino UNO form factor. 
@@ -18,4 +18,4 @@ JP2 is used to choose between pins 2 or 3 for the RFM69 IRQ line. Default for AT
 # Compact POE powered MySensors ethernet gateway
 I have been using the shield with DFRobot DFR0342 board with success. This is a very compact POE powered ethernet gateway setup. DFRobot DFR0342 board is basically an Arduino Leonardo board with built in W5500 ethernet module and POE powered.
 
-
+![MyGateway + DFRobot board](https://github.com/ger-ator/MyGateway/raw/master/pics/mygw-dfrobot.jpg)
