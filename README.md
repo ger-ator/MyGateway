@@ -3,7 +3,7 @@ RFM69 + ATSHA204A Shield for Arduino.
 
 ![MyGateway shield on DFRobot board](https://github.com/ger-ator/MyGateway/raw/master/pics/dfrobot_gateway.jpg)
 
-# Desciption
+# Description
 This is another shield to build a MySensors gateway with Arduino UNO form factor. 
 It includes RFM69 radio module and ATSHA204A crypto signing chip.
 
