@@ -48,6 +48,7 @@
 /* Disable to save flash */
 #define MY_DISABLED_SERIAL
 #define MY_SPLASH_SCREEN_DISABLED
+#undef USBCON
 
 // Enable and select radio type attached
 #define MY_RADIO_RFM69
@@ -70,8 +71,8 @@
 // Enable inclusion mode
 
 /* Disable to save flash */
-//#define MY_INCLUSION_MODE_FEATURE
-//#define MY_INCLUSION_MODE_DURATION 60 //sg
+#define MY_INCLUSION_MODE_FEATURE
+#define MY_INCLUSION_MODE_DURATION 60 //sg
 // Set blinking period
 //#define MY_DEFAULT_LED_BLINK_PERIOD 300
 
